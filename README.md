@@ -118,10 +118,6 @@ Resposta:
 - Persistência em arquivo **JSON**
 
 ---
-
-## Documentação
-
-Toda a documentação da API está neste README (seção [Rotas disponíveis](#-rotas-disponíveis)).
   
 ## Universidade
 Este projeto foi desenvolvido como atividade acadêmica na **Universidade Federal do Cariri (UFCA)**.
