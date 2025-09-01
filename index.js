@@ -6,9 +6,6 @@ const fs = require('fs');
 
 const filePath = './contatos.json';
 
-let idAtual = contatos.length ? Math.max(...contatos.map(c => c.id))+ 1: 1;
-
-
 // Carrega dados no arquivo
 function carregarContatos() {
   try {
@@ -21,6 +18,7 @@ function carregarContatos() {
 
 
 let contatos = carregarContatos();
+let idAtual = contatos.length ? Math.max(...contatos.map(c => c.id))+ 1: 1;
 
 
 // Salva os contatos em "contatos.json"
